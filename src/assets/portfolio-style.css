@@ -1,0 +1,105 @@
+/* Portfolio-style.css */
+
+body {
+  font-family: 'Heebo', 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Experience / Skills Card */
+.experience-heading {
+  font-family: 'Heebo', 'Inter', sans-serif;
+  font-size: 2.2rem;
+  color: #000000;
+  text-align: center;
+}
+
+.experience-card,
+.skill-card {
+  padding: 20px;
+  transition: transform 0.3s ease;
+  background-color: #c47777;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card:hover,
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Skill Tabs */
+.v-tab {
+  font-weight: bold;
+  color: #1976d2 !important;
+}
+
+.v-tab--active {
+  background-color: #e3f2fd !important;
+  border-radius: 8px;
+}
+
+/* Skill logos */
+.skill-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+/* Section Spacing */
+.about-section,
+.skills-section,
+.experience-section,
+.projects-section,
+.resume-section,
+.contact-section {
+  padding: 60px 20px;
+}
+
+/* Buttons */
+.v-btn {
+  text-transform: none !important;
+  font-weight: 600;
+}
+
+/* Footer */
+.footer {
+  background-color: #1976d2;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Centering text */
+.text-center {
+  text-align: center;
+}
+/* Experience Section Styles */
+.experience-section {
+  padding: 4rem 1rem;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.experience-card {
+  padding: 1rem;
+  border-left: 4px solid #1976d2; /* Replace with --highlight-color if defined */
+  transition: all 0.3s ease;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.experience-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
