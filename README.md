@@ -5,7 +5,14 @@ A responsive and modern personal portfolio built using Vue 3, Vuetify, and Vite.
 This template should help get you started developing with Vue 3 in Vite.
 
 Here is my 1st look of my Portfolio Website :-
+
+## Screenshots 🖼️
+
+### 🏠 Home
+
 ![Project Look](./images/PortfolioLook1.png)
+
+### 🛠️ Skills  
 
 ![Project Look](./images/PortfolioLook2.png)
 
