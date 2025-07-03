@@ -1,7 +1,10 @@
-# .
+# My Vue + Vite Portfolio
+
+A responsive and modern personal portfolio built using Vue 3, Vuetify, and Vite.
 
 This template should help get you started developing with Vue 3 in Vite.
 
+![Project Look](./images/PortfolioLook1.png)
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
